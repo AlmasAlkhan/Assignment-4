@@ -1,0 +1,10 @@
+Dataset,n,m,SCC Time (ms),Topo Time (ms),DAG-SP Time (ms),SCC Visits,DAG Relaxations,SCC Count,SCC Edges
+small_1_acyclic,8,7,0.024,0.190,0.010,8,7,8,7
+small_2_cyclic,7,7,0.013,0.007,0.003,7,1,5,4
+small_3_mixed,10,10,0.013,0.014,0.005,10,8,8,7
+medium_1_sparse,15,15,0.020,0.016,0.005,15,15,15,15
+medium_2_dense,12,21,0.013,0.028,0.005,12,21,12,21
+medium_3_multiple_scc,18,20,0.016,0.010,0.002,18,1,12,11
+large_1_sparse,25,26,0.024,0.022,0.009,25,26,25,26
+large_2_medium,35,67,0.030,0.134,0.013,35,67,35,67
+large_3_dense,30,84,0.027,0.029,0.013,30,84,30,84
